@@ -1,0 +1,76 @@
+var courseDetails = [
+    {
+        name:"Financial Markets",
+        price:111,
+        img:"https://lh3.googleusercontent.com/jHDxeaLnLk3LlwNhJtqHjUyKODYnB15ujfdNi_-SCf55Q-kJm8DwIsYnrQGO6Tll4glo1u5-xHsROCavoPb9OeC1BkRUcbVR5fWAfyxF_RrrBEa5UuHS1K6rluybVcOV-xe47_iB-OOVITW9TlZI0MzUxjBNMG_S_KOeIKb9rR5h3dQRdCsnbsW_5zxdjwzCIGmi3gm0xI_mGQFhA4dYIvK49h3kWFs1kWw1eqL8JH1X4BD2LWlBT4ffMLUdKwjhpD6m9XhsCL-5b4aOrDqaGG10xGcmLEG17rjpZshm4ULWxbm6b7Wpd-MKDDGuRR8G_AvdzpN53yqqtXZ-I7R7mpQvGCHDw0OILiBDXzzqgaRvCeFxcIa5MTdBYyCZF1fX7rZMJdLJYtvGcWxrC422pG7GGSx9DywpSRtEfkv_NeLE4ekyzw4kB-LUpTDK6VaPBpXlWCpjFJU5frTb0Zfz1aKJG42ucprZn0XZGxkdEDsSqdc3sA4x1N6C4e2ytyT9j2nncj1n5HbZ0BK4vO0O3Bk2_BL3U0j1FfUjTcjEHavEjCtZU5UozYa7NNGoOkQiAj1VhKTfelcVmdJllQT_MefMs4AJ8YUDLyqNHFUATTr33YeVYC8wgFvUMpZoamwG4RoVr6nYIY8DUV62XfHWHB70H2htRHNXnFjMtexMe148FJDudD0XsadL6d1p=s150-no?authuser=0",
+        instructorName:"Steve jobs"
+    },
+    {
+        name:"Game Theory",
+        price:250,
+        img:"https://lh3.googleusercontent.com/fQXgSpNmCsTg7xuhzBU8HB7x8LrpbSG_kv7KVqCa0orDDeFIANDB-UKQ2GcdouDKd_Zil6W2GFWTFPoHKSF7hX886z6umfFn7Lib47Um1I2Z5Aq09kfgUBIpmympv_3NfoCgECDM8X6FFNRVy18KYBk6-L7GfSIaumelvtwEq3QmBE4ORh5IuZUV171a0Ybout93xHh54mcVtEl4pWYXD7cfGrZ56gOCKmN5wqD7H06wDYwrvjaJWaJAF8Asq2wZ7hfrcA1-9kLFtustXRanKStv2SaWnAS8Hb5QAwSaK-r92PJfxLALgLOLbP2Nn1OgvZ1mTOCbv_hLG3zvV8rk7oNb1ip72SLYgCZyaZcJnJkNekeBiTvdTH9sT8Zy68umQjb-JNmvYzUxdexzaanUqBT7BnV64kVfug5QRYDavIKFkWy7gUv6-tBAbAiJRE-fv1J9OflrfDnkIHPXiqP0JOCgBpCnEICvF-m75ph_3GTCBb80d82MyrLa2QIwRPlKb94RXOzrBKQ3jNaaCpiWSr41eqmlz_0_IBHTW0Z5BuHoPGXyV3TkGj7-kMa5lDmqRD9QPOGBh9SXlDofxlBlXgSvGbm6zzxCAODaSlE8eEHA6M8V6a4Y_loDAzzzljAdxXEniJ4BDP4XOwTLEVw8zGZ0nDT6NOSSv1ddFxrDeXwugaBbxwZlg4A_zB4_=s150-no?authuser=0",
+        instructorName:"Fahim Khan"
+    },
+    {
+        name:"Introducton to python",
+        price:400,
+        img:"https://lh3.googleusercontent.com/NOQ2U1ouAgfQDidAgmv6aRQZFtbSi85hHYtEi3QnjKGYgNk3-Az2643GN_MGOypRCt0nbOmRx7Oy1h3MYw68VcTsHtLQS_MMzrMQKhOzG0U2fdIm63YzJRZwApRv2HzGpkKkXD_yKX77CdCl70J3zTMPIW1sIiE6WWMeij5iQmkfLNVJ-pjXTAfw8xitX1OX3_OKvspjhg1g_7Ku9K9WjeJlePp0ObQkQVTLdpbsbn0wAy6yD8sX-Em_R2kNqESZ-7KxEdgiezf2-xUSlxt8XwEKH_93nHClZahAYlNXCoYlLHbB6NkUmiKrnuKDdB12x0AKr79IqAb59TMeyT1FbzDCT_3O34ibjbvfcmfPi0TJlkW3TJ2tAtSsBf5NzWO0d25j8xH5K-s1Elu0tEhB4sSwFc0qVpJWpby1mqDwUYtPh5LzI8Df0WUtGpY2YziNjs24voVHiSGaluqFfegzOgvRtBpJIypNYt7-tsete79IaJjJbv8HrFH9RcmpSE5f9TeQmLQdPYgYN75znZRjQtxTgMATgvpVnDXFG89pcjJU1ECRFHmm8eXPjnXogxzWo1L4jjUPYQ0zTlSctK1OhpNIjkXsQj4LeZmHVHWaV91fIIPZ5ruRnWveCkHWUmp9_nqDztIpyE--Z7sKXDfZd7j5IKFDdkNR-8cHAVXruFzT7lqkgGcnaO14aIuq=w291-h173-no?authuser=0",
+        instructorName:"Mark jokerburg"
+    },
+    {
+        name:"Html , css , javascript",
+        price:250,
+        img:"https://lh3.googleusercontent.com/EiOJhy0wOOKXYdc-BUcdELoiGd2-4K54byybxelq1gK_N2VoVOUbqJ6W5tIlp4Zekvks4TF7ynz3iSjgZOJyhvscPzs6jbFN-ziM3jEWrKx0nnwpMFD4d3Yoj2uwQsEoW9r-sG9ByeagzXxvtoYrcVIxZ6qKUP6WThvOWVbdxWx8FnRbF3CSX-FAN22eJvngc81O73QoedY84tRVCG0mbvfMxUCj3effstXLz_jo3EV7hAqDZKhAFo6WgqTK0wxbloG47QnmkWHniWLb1uMCZLHL2baYYO2ZMYlIKXxOPCuP6Y3Xr1ndchalImYxWpyeDQiZXSHP-fPSSyJJJev9kQvT9wN1QIoXF26e3CJVvMZL-jjhqN-MT2JfCTsW2ujfzwnoIhC3G0jQmaTDNfOrX2pKGhqdfMfJfb15CLSo-VELRDr3NqqVN2sNc_rkNw4K70CpWViaOEkxvdKyUGVCTHWF1McsEaQ0xRUWToH8fsR2dNKEubyxfHJ9QvcIzGMrSuTiB7B7RPN0brIfyJGiZuu2upgXRIbpqGqI9PcjFLtrX11qX_D1jOQaHH8Zpo0U1QzsrEIVro_jXoUK25pKi1faofEj9iotIJT2Yy_UCh69QcnZIU4mZ12LQWksEph3v9MSo7PIEDoNiTKQ1p7gdo7SO4Jn7rCuzTtaKeVLDjOGlJx_onENVvsDcfKs=w275-h183-no?authuser=0",
+        instructorName:"Tom hanks"
+    },
+    {
+        name:"Learn Node.js",
+        price:160,
+        img:"https://lh3.googleusercontent.com/4nJE1F4MA2o8cDfoDnvaSYkJ0Nj1NHjawRjF8rZMYORBsiBkGuvBEhKC5e7Pmsvf-Oc2NikwtKg6xyX3s6wvVmpuzJ92zW0bx9J0YT2HPXN5N0omsftBOAp3MFRG2dj785zrfZmlnJvZfclIo6tSM328SUaav1f-BA-E_BBXB6t093YQOjBTAJEnY6380y2-AZxhJ9ct_m0jMZ3AQXhm-SL8Rd-TQGoLaLnal-LYV3xNXRWdvo0Pg8G0240738GHHJUNEoq8GTCVO94OnXzKR1BQILtmBEOD5k9khb_8WaJ4ur2TAUDKtqaEVx7oOwidjzQE9ZEhp02g4XSqXFcyPeZ2jIlAHBS6lS0UPM4aBORwwbJOK1SckCs5MePzodVDs1D2oGX_ToUVzljdAzxhe-uPwRp6UyW9W6gs1bSEhXVZyPqM3z7esOfeWlB4tf6pyqJg2rfjoxKY2wK6ajR5vUpkOrVp81hZ7bgzg_GH-zIrKGUUmSY0gILvtNXuGO2959lZj9wUNJBURy57NrkfDa-TeUulcpLoulvi5fXvrkydFloyCVBOmriJMVtVmdyh-QOI-7XN4olctQhfJF-SeXe-Et8ZXmNXeBu0x4_GaIHbLtB43UdzMK7xTFIPbK1WG3U0fKLvP64ShEKTCSrh6hh6VJcfD8GCj3hBobvDlwZWJO4y438HZJuayDhc=s225-no?authuser=0",
+        instructorName:"Amir Khan"
+    },
+    {
+        name:"Introduction to java",
+        price:100,
+        img:"https://lh3.googleusercontent.com/FiCflcl_RZdebooUD2_sXPQB2wfpQ-2bgmuCV8lfOmuGz1uHc0Ji65OsCJORqphZsDbRXeBfrVLD12pUHfCuOmgT-JeKcu9pFUIhToDn4bTL2uNqtp9-l3XLDJ65nCv4jkXZlrZlEVDpSI6scOgyKbWzQZ85M1761VyIDH8-oQkzQYwYQ5BX3ClSXyDL-h3Yis4xSSilburnQLyxms6tiNWJLw_APT1j0369E-MGDKcAWrb6EjDUtIvNfsnTTbEEZQozCunx8HN4454YtV3uo_AooGL-3i_gGO0rM0mbzAqNd28_MIp-SSG4kNhUGQ3FwPTk6Vk43ca1z0YEmFrnMBLTdrllFzE_6l_q64zcqXW5ZWVQ1nex_YAt-of-0-c20bTjg8N_5iWHdN3p0_hT6CSsqDXNtfD6w9PVXb5UDJGiUuL4B2It3j0lbMyd8PN4hpS_Qge8qBFrsr3CXE7LtoaBuEZeMh7BNIaz2YB6qI4jvOZadqAZR7YU9vbzwI6STXlkcNjubc-qC9utVwK_gZhtNizr8zz8l936rtbu0-rreI4CP4cYHNc3WH77PHksHER9IjERwOQy2UopoK0Ldgc2j1ktHz34KxbQHdxOpfvvttwrZJ7_6dv17EsMf2LhLrF-dmKA4biUC8PMTqN22oLgrfjBUIHPX8Ja87RBDkHcUpU0VYfLhzHfKE29=w300-h168-no?authuser=0",
+        instructorName:"Sakib All hasan"
+    },
+    {
+        name:"Learn Wordpress",
+        price:60,
+        img:"https://lh3.googleusercontent.com/VrvwJOkz3fklfwPPW5a7WZBleZHfEbLSLEs9rTu6QcKvbW5aZYk5XlqAU03ojCHKfK762gYZ3TdTgISzAtVPAkjb2BkfK3J-wTNzNV-L10IO3NhefYyUooJwYNG0Fs9LuJRSXhcIeSXxNsF5f8Ar1It_H9rsXZa0vkL1HzmNDK9WgUN7_VguMIjNTC4EMfk3xbmOMN7tqVouSsVyM3ir-Hw2NByFxMSfo9NQlCwyE9tV6HY17SGLPuApqAgRLo9dPmCGyI2UvgdRY8oxyFtc3sYejY1pUQYKee4WxMcpdVWYI697eZh4csctLgXNLmo3xiSStHMbJSv2RxG5BZR8b3Pad4ICoS8-_ytQo_75jbUs618XWrNd6U4dAjxTuIs5s2pIfKmhX6o5IK8FXbhTZKGHKLRkpNnOdQgEtSicdo7uWNh5BCBdvs2YgZMHu72H131evby1yfxBRP7MGAB6OI70WM440mrPLJJLIumR6bMWdVZA869I8OoekM0upZ3FeP0sRHw-g8L08jwGr7_YCcMBcSqAIYA0w5SvUc4ZZ5toMruxXfUyOpRcKDpGphBHLgVo-9CTM7WneJ2HHUc0hsIOsBs0n6dW6zINt_HfSbb-c_jwcMyjw2hdq5Ff0UF3Uart3qtTEym86nA9hHpLWZ2ajLT8JRqKUR3soEKnBoayR5wNOgvyQ6KMG-KS=w310-h163-no?authuser=0",
+        instructorName:"Mustafizur rohman"
+    },
+    {
+        name:"Complete React Js",
+        price:560,
+        img:"https://lh3.googleusercontent.com/51HlgSjgd0rNP-6dHLwyCviQZ8c0jiAZr3WrRQVQ8h3sHylbCyx83i8O-_MnYSPoh50dkjHbrdAwOGjYWkwe4C57y9j4CrGkeE3mvKkYrHRHx-2UvwepvfrE7m6exzzdpkW_nhuKErK1LYotNyhPP02ZMOVrAlCg0cSr3DweKd9g_h9MzJKrKy2o8Tvq3uWTxOvPAwlCosOdild1vyS-8gJk7P0w4ecl-jkwAON3j6QL9ZW5s4-nECYm4MGXRXAtaI8mDISnHjkjZpzfepm_Nrf_imwmciwNJWK5ePrb4IBbQeF6kfL8HS0KqAj5Hsfquf_v2zqeSHt2ub9OJ0yLHNZG5sd6SX-NbrzPukUw8BpM1iL2lWif_xUcsuqbehCLNIJnuO2o78sEE56cHetzvbBeQBtwpq6x_8GGmyQHAPPOzIP04Jr0-uX55wDTe7NpwaMChWiqvh0tnECC61yvSfp267A1eqRljzDamnMdMjcwfKXLxL5fhWXxBJUvcV3b2Wc_ZZAHKNeJnB_yuyX-biNo4f5cY5FN2lF17-8ijHTA2xebwYiYoK_go6qf_gLuI1L9KYyu94pC8FEXbLC2f39w8hs2IRPuGaFBmp6gdJF70GV0OkuhCWsns0X3jbnhRTzhUly_yCdd9HZnP4wx399Nhxfxnj5fpfAnE5g_yKSMqV8P2nODup4b58ZC=w343-h147-no?authuser=0",
+        instructorName:"Jhankar Mahbub"
+    },
+    {
+        name:"Introducton to Calculas",
+        price:231,
+        img:"https://lh3.googleusercontent.com/_Sguz-92dmUoEGOt32FIqejq2rsYkm99ClSr-vk6k5iUcGHjlS5gw84QG63UTJtwDfQgKDpjBTOb9vOqyd0PPEiuNNLXp-RqzU7AeLlnWCjeZiS6l9b8fHla6jHbyxZfhOpAXnw8SVOj2JKCFhu1330R482ZCDL9rZLx58VfiWepXRdE1m_UgPHQz6SLxCWXm_DG9t9Kb-xLKB8I2tbn092SKwo6zHTpPj4z8AkW10hyAFXiHkTsNKgcFL_-3va8D5go06oX1CPw80uCMaB1wQEb_EF8xX0_FrkrDcnD-Z4UCwTr2yydFaePZN0iYaLsZyf_nfx_nMzsyO9lW52FudzilCXm7lhXfver3T_GwngR5ygB99N4h-aPJpionfG92-rFxlvwJN4DLUZd7k2TVODBYo7BSBrZop5YdlkFHznlthLHNJebV35OHLCS0waRDN3Y0O_3_9Zwaebst7_6O5NN8JKUv7NlGpnJIjcoObKUIvXJQd7KgyoLtmWAFGMzNHd2Kyzc8Y-pux_N7TVoWxkf2yneiSECb6b_ualRHeIqKGg9znEKCcwYbkKFxyNxlxM2rVsGnou5onPhww-hpzfb4l7aQSVrWyoeK-0_yicCkOI2FcORNkp53vMPOC7BchOTPWZBG0r6HszN4mBOswThAz7369NJtMgIfoeY6ajXWm1ltybCOc12yWak=w290-h174-no?authuser=0",
+        instructorName:"Pro Rasel"
+    },
+    {
+        name:"Machine learning",
+        price:673,
+        img:"https://lh3.googleusercontent.com/j0b9h9MOJ_acjelbbKwWKV_LkDvUqfbaXkTcLMFpZfv_HY2-XrjXc1bgmlaKiR0HAazhAqLv0Hr7tWCwoU8iYtv9akvQlaV7NzlYW1NzpqonGKaxGezry8-1Jt5vqokhacb5JttiQoRst7CSWdBomHwvIcx1b62jmd3Equxr0p95ZLu8JnVAUei3w5OjVvu7pIxY3qSUEj1Q1Os2QDiAty9nrD5HPjEY3mC9YljRkeXBuTtQolgQMyoCxdrcSDpKAz0nQV6rvVIZ9PyHTCH9R4DkLCycyJ7yGikcda-BjaG9GxXy_X6vjeFs24zrHG90unvSzHnEl8nOhdbypxudxk6V57iHz9CSUtyOb-GZkDGeOwyX64qshj6Mpk2Yy1Qkb6a50FM51IdkBMY9EGyL4Q-UXg0Wnvx4oRvnKrFEjLzU4-lEN1w1NkTDVwR-vo7dWAcInr5DWus1roVTttzsrrnAIEfK4iI1RdxzwYQa_7QOGC1_g0iwxKnQyY55LsoybByox0LzR45Z_XHzmxvpaiqhXWVUFbqiWxYMtqA17Qlwtjm1LWIXX89kAy6d0cvFG-vJYrwOAK8LijREx8RmbX496_oIbhfM2NSsYkmz29nJeAmQemVs3hKaC-gnc0DzKwdO1GdHnWJup_cQ6eP99eEvZ33Na0qeqcO6numz46fZ7fDlFn2i3KMBX3tk=w278-h181-no?authuser=0",
+        instructorName:"Sahruk Khan"
+    },
+    {
+        name:"Introducton to Robotics",
+        price:90,
+        img:"https://lh3.googleusercontent.com/2ixWmQ5imkmcM5Ui1ecINVDOCxVI0eNsp8i780aGqcOZwGZSNV1Fslp9oe0dnR2oUFmxVoSW4VHYVX2rQGGoqLTz7qgtqKWD5HDaXdqCT5SNoBmjHYFogHyorslkrdkjOYKmgdkUjW07oELNoFwJe784vjPeoM-O7b6HpgcKq75NEeakXpA4pqmqjAVeKsezSfTL3yWzwGLHGcY8oKRgIXmrYwF7C89nrdDCvJqn-KrUC24G3PiLldFYaOa4UiomC0fVRWxsiYCBCuuQ1g2EY3tLrJ_commDApmzH8e5hVj7vG-AC8wqAXJVvgV3RTX1aEbYKTZlBqBS3OK7SG0gjkoVlkTr-NwDCoFglSBhSWcQVKU4d18HU5oHIg9Yyi8_aTUBXd4biha5BmBrgUzNJnbCyOKDE9Hw232YAV_e2-cP7Iafcoe5gyaQmOo5zhSko1LrwosJ5YCf0CqWZh62O1kltOLzenwO9S0-oAn-Zyn3d4sSUVeg1feeYOuDBrJegM8GYVY5KfNdLkALbwNcixEi_rTLOrGFA836X9PtZKmoqV4B1ewaVFXA1qcp2VDpcu4gZ3yXKCqveNtgSQ4ItGoK8tCmTbYT-bGFf53VtPK2qWlRhPZgYXBQ7K1ncBn0Pu7z2HzYT90c2ebIcO5ZwIvQ1E9fkE2qQvOK07HOTHiKZqiuvnQyXLMpKiOF=w360-h140-no?authuser=0s",
+        instructorName:"Karina Kapur"
+    },
+    {
+        name:"Learn Django",
+        price:342,
+        img:"https://lh3.googleusercontent.com/kIGX3kLRIUXKw1zlPUGxt9XTgb6hjB7K7kNeUwItmRYp1TIORpm2SMl8nYJ1_WXWR7ua5nr3IBxXzTHt-espsA3rcnbAK1IQ6mQLPGzFkQ8JPlYR0TBej1FU_ic1Nb5wwnOavYL7UCfT7t9_ZNsJamE27R15laduU4EwHyXN407xesAgGibnhmR26ebFdf2meCYDbxQwI5_JoAHyHQDh1K2vMLRMUnfbIDfeo5eYDutB-aBWyHl03WklXs2Dvf0W3TKvd1lY2SHeWin3JDWOj2Gsn3ld8wjG0QyKfLu0n880SZwF9C7MTRFb15J5g1F_XYoan4UcRAi9AEb4DgNDQuY5cucXNZ8sc9jEwZ9trdDIcuZBgBTMqlres6elwVSYKTxbMdmqpQgZdeHG0TjU9vCLI64eanwwtIbA_6hBvTLW8SWJMAMO8no52uWBCYHZeggDwncPSE2QRraEw-MsBIOjRWCtBz95j7munzcLr5-EwBLPKEvnOjnMpmX4_bcvOaS-zLxq_2gye91xDKzkblgx-Qgb5OhN1hIxA97cm9XUJUSiz2Iy0scD3grIaShTDvyn21KXrA3Yg8CZNWXVAk7Zo2ISYMr4Lb6-qAEUPKk0q-nOMMIQ-oWZINeyq9bJ-c6SfSDMSO_1Xcomj_QqrOnQoW0fAKf-vd_N4opHxXCFMGxFrWdQDmF65-GK=w300-h168-no?authuser=0",
+        instructorName:"Sushanta Singh"
+    }
+]
+
+export default courseDetails;

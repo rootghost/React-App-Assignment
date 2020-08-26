@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Shop from './Components/Shop/Shop';
+import fakedata from './fakedata/Fakedata'
+import { useState } from 'react';
+import Cart from './Components/Cart/Cart';
+
 
 function App() {
+  const courseDetail = fakedata;
+  const [courses,setCourses] = useState([])
+  const addCourse=(course)=>{
+    const newCourse = [...courses,course];
+    setCourses(newCourse);
+  }
+ 
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <div className="Shop-container">
+          <div className="course-container">
+              <Shop addCoursebtn={addCourse} courseInfo={courseDetail}></Shop>
+          </div>
+          <div>
+              <Cart course={courses}></Cart>
+          </div>
+      </div>
     </div>
+   
   );
 }
 

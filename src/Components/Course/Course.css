@@ -1,0 +1,29 @@
+.cardStyle{
+    background-color:white;
+    width:250px;
+    height:310px;
+    box-shadow:5px 5px 10px;
+    border-radius:10px;
+    margin-top:30px;
+    margin-left:83px;
+    margin-bottom:10px;
+    line-height:10px;
+
+   
+}
+.courseNameStyle{
+    margin-top:3px;
+    color:#218838;
+    text-align:center;
+    border-bottom:1px solid gray;
+    padding:2px;
+    
+}
+.imgstyle{
+    width:100%; 
+    height:130px;
+    border-radius:10px
+}
+.textColor{
+    color:#218838;
+}
